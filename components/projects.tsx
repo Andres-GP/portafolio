@@ -1,47 +1,51 @@
-import { Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { ExternalLink, Github } from "lucide-react"
+import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { ExternalLink, Github } from "lucide-react";
 
 export function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "User Management System",
       description:
-        "A full-featured e-commerce platform with product management, shopping cart, checkout process, and payment integration. Built with modern web technologies for optimal performance.",
-      image: "/ecommerce-dashboard.png",
-      technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Tailwind"],
-      github: "https://github.com",
-      demo: "https://example.com",
+        "A complete user management application featuring authentication, role-based access control, and secure CRUD operations. Built for scalability and clarity in enterprise contexts.",
+      image: "/previews/ums.png",
+      technologies: [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "EJS",
+        "Bootstrap",
+        "JWT",
+      ],
+      github: "https://github.com/Andres-GP/user-management-system",
+      demo: "https://user-management-system-8r1h.onrender.com/",
     },
     {
-      title: "Task Management App",
+      title: "SocialApp",
       description:
-        "A collaborative task management application with real-time updates, team workspaces, and project tracking. Features drag-and-drop interface and deadline notifications.",
-      image: "/task-management-app.png",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Redux"],
-      github: "https://github.com",
-      demo: "https://example.com",
+        "A modern social media platform where users can share posts, interact, and connect in real-time. Designed with a responsive UI and optimized for performance and scalability.",
+      image: "/previews/social-app.png",
+      technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "Sass"],
+      github: "https://github.com/Andres-GP/SocialApp",
+      demo: "https://social-app-puce-delta.vercel.app/es",
     },
     {
-      title: "Weather Dashboard",
+      title: "Blog",
       description:
-        "A beautiful weather dashboard that displays current conditions, forecasts, and weather maps. Includes location search and favorite locations feature.",
-      image: "/weather-dashboard-interface.png",
-      technologies: ["React", "OpenWeather API", "Chart.js", "CSS Modules"],
-      github: "https://github.com",
-      demo: "https://example.com",
+        "A dynamic and minimalist blog application with authentication, post creation, editing, and flash messaging. Built with clean UI/UX and deployed on Render.",
+      image: "/previews/node-blog.png",
+      technologies: [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "EJS",
+        "CSS",
+        "JavaScript",
+      ],
+      github: "https://github.com/Andres-GP/Blog",
+      demo: "https://blog-3rab.onrender.com/",
     },
-    {
-      title: "Portfolio CMS",
-      description:
-        "A headless CMS for managing portfolio content with a custom admin panel. Supports markdown, image uploads, and dynamic page generation.",
-      image: "/cms-admin-panel.jpg",
-      technologies: ["Next.js", "Sanity", "TypeScript", "Vercel"],
-      github: "https://github.com",
-      demo: "https://example.com",
-    },
-  ]
-
+  ];
   return (
     <section id="projects" className="py-24">
       <div className="space-y-12">
@@ -53,7 +57,10 @@ export function Projects() {
         </div>
         <div className="grid gap-8 md:grid-cols-2">
           {projects.map((project, index) => (
-            <Card key={index} className="group overflow-hidden hover:border-primary/50 transition-colors">
+            <Card
+              key={index}
+              className="group overflow-hidden hover:border-primary/50 transition-colors"
+            >
               <div className="relative aspect-video overflow-hidden bg-muted">
                 <img
                   src={project.image || "/placeholder.svg"}
@@ -62,24 +69,39 @@ export function Projects() {
                 />
               </div>
               <div className="space-y-4 p-6">
-                <h3 className="text-xl font-semibold text-foreground">{project.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">{project.description}</p>
+                <h3 className="text-xl font-semibold text-foreground">
+                  {project.title}
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {project.description}
+                </p>
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech) => (
-                    <span key={tech} className="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary">
+                    <span
+                      key={tech}
+                      className="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+                    >
                       {tech}
                     </span>
                   ))}
                 </div>
                 <div className="flex gap-2">
                   <Button size="sm" variant="outline" asChild>
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Github className="mr-2 h-4 w-4" />
                       Code
                     </a>
                   </Button>
                   <Button size="sm" asChild>
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <ExternalLink className="mr-2 h-4 w-4" />
                       Demo
                     </a>
@@ -91,5 +113,5 @@ export function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }

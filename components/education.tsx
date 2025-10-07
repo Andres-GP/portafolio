@@ -3,32 +3,34 @@ import { Card } from "@/components/ui/card";
 export function Education() {
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University of Technology",
-      period: "2014 - 2018",
+      degree: "MicroMasters in Finance (MMS)",
+      school: "Massachusetts Institute of Technology (MITx)",
+      period: "May 2025 – Dec 2026",
       description: [
-        "Graduated with honors, GPA: 3.8/4.0",
-        "Focused on software engineering, algorithms, and data structures",
-        "Completed senior project on machine learning applications",
-        "Active member of the Computer Science Club",
+        "MITx-certified advanced international program combining rigorous financial theory with hands-on applications in investment, capital markets, and quantitative analysis.",
+        "Covered asset valuation, risk management, algorithmic trading, corporate finance, and portfolio optimization techniques.",
+        "Focused on strategic decision-making through the use of quantitative models and emerging technologies in global markets.",
+        "Engaged in collaborative projects on financial analysis, portfolio management simulations, and asset valuation exercises.",
       ],
       achievements: [
-        "Dean's List",
-        "Best Project Award",
-        "Scholarship Recipient",
+        "Completed advanced coursework in quantitative trading and portfolio optimization",
+        "Active participant in finance-related research and simulations",
       ],
     },
     {
-      degree: "Relevant Certifications",
+      degree: "Certifications",
       school: "Professional Development",
-      period: "2018 - Present",
+      period: "2020 – 2023",
       description: [
-        "AWS Certified Solutions Architect",
-        "Google Cloud Professional Developer",
-        "MongoDB Certified Developer",
-        "Completed various online courses in advanced React and system design",
+        "Certified in advanced Front-End and Back-End JavaScript Development, including React.js, Vue.js, Angular, and Node.js.",
+        "Completed specialized programs in UX/UI Design, Product Design, and Graphic Design, emphasizing usability and product strategy.",
+        "Certified in Business Executive and Leadership (Team Management), focused on cross-functional collaboration and agile methodologies.",
+        "Developed full-stack and mobile applications with React Native, Firebase, and modern web technologies.",
       ],
-      achievements: ["Multiple Industry Certifications"],
+      achievements: [
+        "Multiple verified certifications in development, design, and leadership.",
+        "Recognized for continuous professional growth through technology-driven education.",
+      ],
     },
   ];
 
