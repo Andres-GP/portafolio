@@ -3,9 +3,11 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { scrollToSection } from "@/lib/utils";
+import { useTheme } from "../app/context/ThemeContext";
 
 export function Navigation() {
   const [activeSection, setActiveSection] = useState("home");
+  const { isDark, toggleDark } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -63,6 +65,12 @@ export function Navigation() {
               {item.label}
             </Button>
           ))}
+          <Button
+            onClick={toggleDark}
+            className="font-mono cursor-pointer ml-2"
+          >
+            {isDark ? "Toggle to Light theme" : "Toggle to Dark theme"}
+          </Button>
         </div>
       </div>
     </nav>
