@@ -18,18 +18,6 @@ const ThemeContext = createContext<ThemeContextProps | undefined>(undefined);
 export function ThemeProvider({ children }: { children: ReactNode }) {
   const [isDark, setIsDark] = useState(false);
 
-  useEffect(() => {
-    const storedTheme = localStorage.getItem("theme");
-    if (
-      storedTheme === "dark" ||
-      (!storedTheme &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      setIsDark(true);
-      document.documentElement.classList.add("dark");
-    }
-  }, []);
-
   const toggleDark = () => {
     const newDark = !isDark;
     setIsDark(newDark);

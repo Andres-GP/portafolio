@@ -1,11 +1,12 @@
 "use client";
 
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense } from "react";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { scrollToSection } from "@/lib/utils";
 import Spline from "@splinetool/react-spline/next";
 import { useTheme } from "../app/context/ThemeContext";
+import Loader from "./ui/loader";
 
 export function Hero() {
   const { isDark } = useTheme();
@@ -82,29 +83,20 @@ export function Hero() {
         </div>
       </div>
       <div className="flex-1 w-[800px] h-[700px] rounded-xl overflow-hidden scale-65 md:hidden lg:block">
-        {isDark ? (
-          <Suspense
-            fallback={
-              <div className="flex items-center justify-center w-full h-full">
-                <div className="w-16 h-16 border-4 border-t-primary border-r-transparent border-b-primary border-l-transparent rounded-full animate-spin"></div>
-              </div>
+        <Suspense fallback={<Loader />}>
+          <Spline
+            scene={
+              isDark
+                ? "https://prod.spline.design/N4-ypHUkAhRzf0qf/scene.splinecode"
+                : "https://prod.spline.design/zBt7AYvjL9QXSq42/scene.splinecode"
             }
-          >
-            <Spline scene="https://prod.spline.design/N4-ypHUkAhRzf0qf/scene.splinecode " />
-            <div className="w-[200px] h-[100px] absolute bottom-0 right-0 bg-[#030304]" />
-          </Suspense>
-        ) : (
-          <Suspense
-            fallback={
-              <div className="flex items-center justify-center w-full h-full">
-                <div className="w-16 h-16 border-4 border-t-primary border-r-transparent border-b-primary border-l-transparent rounded-full animate-spin"></div>
-              </div>
-            }
-          >
-            <Spline scene="https://prod.spline.design/zBt7AYvjL9QXSq42/scene.splinecode" />
-            <div className="w-[200px] h-[100px] absolute bottom-0 right-0 bg-[#FFFFFF]" />
-          </Suspense>
-        )}
+          />
+          <div
+            className={`w-[200px] h-[100px] absolute bottom-0 right-0 transition-colors duration-300 ${
+              isDark ? "bg-black" : "bg-white"
+            }`}
+          />
+        </Suspense>
       </div>
     </section>
   );
