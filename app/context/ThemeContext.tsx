@@ -1,12 +1,6 @@
 "use client";
 
-import {
-  createContext,
-  useContext,
-  useState,
-  useEffect,
-  ReactNode,
-} from "react";
+import React, { createContext, useContext, useState, ReactNode } from "react";
 
 interface ThemeContextProps {
   isDark: boolean;
@@ -39,6 +33,6 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
 
 export function useTheme() {
   const context = useContext(ThemeContext);
-  if (!context) throw new Error("useTheme debe usarse dentro de ThemeProvider");
+  if (!context) throw new Error("useTheme must be used inside ThemeProvider");
   return context;
 }
