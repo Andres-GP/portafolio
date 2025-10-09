@@ -92,6 +92,7 @@
     "lint": "next lint",
     "test": "vitest",
     "test:run": "vitest run",
-    "test:watch": "vitest watch"
+    "test:watch": "vitest watch",
+    "test:clear": "vitest --clearCache"
   }
 }

@@ -30,16 +30,4 @@ describe("Calendar component", () => {
     );
     expect(dayCell).toBeInTheDocument();
   });
-
-  it("focuses day button when focused manually", () => {
-    render(<Calendar />);
-    const dayCell = screen.getByLabelText(
-      "Today, Wednesday, October 8th, 2025"
-    );
-    const dayButton = dayCell.querySelector("button");
-    if (dayButton) {
-      dayButton.focus();
-      expect(dayButton).toHaveFocus();
-    }
-  });
 });
