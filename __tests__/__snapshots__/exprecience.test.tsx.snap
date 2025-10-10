@@ -1,0 +1,697 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Experience /> > matches the snapshot structure 1`] = `
+<div>
+  <section
+    class="py-24"
+    id="experience"
+  >
+    <div
+      class="space-y-12"
+    >
+      <div
+        class="space-y-2"
+      >
+        <h2
+          class="text-3xl font-bold tracking-tight text-foreground sm:text-4xl"
+        >
+          <span
+            class="text-primary font-mono text-xl"
+          >
+            02.
+          </span>
+           
+          Experience
+        </h2>
+        <div
+          class="h-px w-64 bg-border"
+        />
+      </div>
+      <div
+        class="space-y-6"
+      >
+        <div
+          data-testid="card"
+        >
+          <div
+            class="space-y-4"
+          >
+            <div
+              class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"
+            >
+              <div>
+                <h3
+                  class="text-xl font-semibold text-foreground"
+                >
+                  Frontend Developer
+                </h3>
+                <p
+                  class="text-primary"
+                >
+                  Freelance
+                </p>
+              </div>
+              <p
+                class="text-sm text-muted-foreground font-mono"
+              >
+                March 2025 – Present · Remote
+              </p>
+            </div>
+            <ul
+              class="space-y-2"
+            >
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Lead project planning and architecture design for client applications.
+                </span>
+              </li>
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Develop and design high-quality web apps with React.js, Next.js, and modern technologies.
+                </span>
+              </li>
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Implement scalable micro-frontends and micro-services to ensure flexibility and performance.
+                </span>
+              </li>
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Collaborate with clients to deliver intuitive, responsive, and efficient web solutions.
+                </span>
+              </li>
+            </ul>
+            <div
+              class="flex flex-wrap gap-2"
+            >
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                React.js
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Next.js
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                AWS
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Azure
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Node.js
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                TypeScript
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Jest
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Express.js
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Material-UI
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Git
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                GitHub
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                GitLab
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Figma
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                HTML5
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                CSS
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Sass
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Micro-Frontends
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Micro-Services
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          data-testid="card"
+        >
+          <div
+            class="space-y-4"
+          >
+            <div
+              class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"
+            >
+              <div>
+                <h3
+                  class="text-xl font-semibold text-foreground"
+                >
+                  Web UI Developer (Semi-Senior Advanced)
+                </h3>
+                <p
+                  class="text-primary"
+                >
+                  Globant
+                </p>
+              </div>
+              <p
+                class="text-sm text-muted-foreground font-mono"
+              >
+                Oct 2023 – March 2025 · Remote
+              </p>
+            </div>
+            <ul
+              class="space-y-2"
+            >
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Led collaboration with clients through the full development lifecycle — from testing to optimization.
+                </span>
+              </li>
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Coached and mentored developers, providing technical feedback and promoting best practices.
+                </span>
+              </li>
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Participated in agile project planning and delivery processes to meet product goals.
+                </span>
+              </li>
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Drove UI performance improvements and enhanced accessibility in production applications.
+                </span>
+              </li>
+            </ul>
+            <div
+              class="flex flex-wrap gap-2"
+            >
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                React.js
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Next.js
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                TypeScript
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Node.js
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Jest
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Material-UI
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Azure
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                AWS
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                GitLab
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Agile
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                HTML5
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                CSS
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Sass
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Micro-Frontends
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Micro-Services
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          data-testid="card"
+        >
+          <div
+            class="space-y-4"
+          >
+            <div
+              class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"
+            >
+              <div>
+                <h3
+                  class="text-xl font-semibold text-foreground"
+                >
+                  Front-End Developer & UX/UI Designer
+                </h3>
+                <p
+                  class="text-primary"
+                >
+                  Kovah
+                </p>
+              </div>
+              <p
+                class="text-sm text-muted-foreground font-mono"
+              >
+                Dec 2021 – Oct 2023 · Remote
+              </p>
+            </div>
+            <ul
+              class="space-y-2"
+            >
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Developed and optimized large-scale web applications using React with Redux, Sagas, and Tailwind.
+                </span>
+              </li>
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Supervised UX/UI design processes to improve usability and visual consistency using Figma.
+                </span>
+              </li>
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Coordinated with team members and project managers for continuous delivery and feature planning.
+                </span>
+              </li>
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Led technical interviews to expand and strengthen the development team.
+                </span>
+              </li>
+            </ul>
+            <div
+              class="flex flex-wrap gap-2"
+            >
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                React.js
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Redux
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Sass
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Tailwind
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Material-UI
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Semantic UI
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Formik
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Yup
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Emotion
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Framer
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Rollup.js
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Webpack
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                HTML5
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                CSS
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                TypeScript
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                JavaScript
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Micro-Frontends
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Micro-Services
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Figma
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          data-testid="card"
+        >
+          <div
+            class="space-y-4"
+          >
+            <div
+              class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"
+            >
+              <div>
+                <h3
+                  class="text-xl font-semibold text-foreground"
+                >
+                  Front-End Developer
+                </h3>
+                <p
+                  class="text-primary"
+                >
+                  A&L Software
+                </p>
+              </div>
+              <p
+                class="text-sm text-muted-foreground font-mono"
+              >
+                Jan 2020 – Dec 2021 · Remote
+              </p>
+            </div>
+            <ul
+              class="space-y-2"
+            >
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Developed, tested, and optimized React-based applications using modern front-end frameworks.
+                </span>
+              </li>
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Collaborated with project managers, stakeholders, and clients to deliver high-quality solutions.
+                </span>
+              </li>
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Implemented responsive UIs and ensured cross-browser compatibility using modern web standards.
+                </span>
+              </li>
+              <li
+                class="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+              >
+                <span
+                  class="text-primary mt-1"
+                >
+                  ▹
+                </span>
+                <span>
+                  Worked with Next.js, Tailwind, and Ant Design to enhance performance and maintainability.
+                </span>
+              </li>
+            </ul>
+            <div
+              class="flex flex-wrap gap-2"
+            >
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                React.js
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Next.js
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                TypeScript
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                JavaScript
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Axios
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Ant Design
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Tailwind
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Bootstrap
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Formik
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                Webpack
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                HTML5
+              </span>
+              <span
+                class="rounded-full bg-primary/10 px-3 py-1 text-xs font-mono text-primary"
+              >
+                CSS
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

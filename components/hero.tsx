@@ -7,6 +7,7 @@ import { scrollToSection } from "@/lib/utils";
 import Spline from "@splinetool/react-spline/next";
 import { useTheme } from "../app/context/ThemeContext";
 import Loader from "./ui/loader";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 export function Hero() {
   const { isDark } = useTheme();
@@ -14,11 +15,18 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="flex lg:flex-row items-center justify-between pt-16 gap-10"
+      className="flex flex-col items-center justify-between gap-10 pt-25 lg:flex-row"
     >
       <div className="lg:flex-1 space-y-6">
         <div className="space-y-2">
+          <div className="transform scale-160 h-[50px] w-fit ml-3 mb-2">
+            <Avatar>
+              <AvatarImage src="/avatar.png" alt="Andrés García" />
+              <AvatarFallback>AG</AvatarFallback>
+            </Avatar>
+          </div>
           <p className="text-primary font-mono text-sm">Hi, my name is</p>
+
           <h1 className="text-5xl font-bold tracking-tight text-foreground sm:text-6xl lg:text-7xl">
             Andrés García
           </h1>

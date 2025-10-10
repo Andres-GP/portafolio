@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/next";
 import React, { Suspense } from "react";
 import "./globals.css";
 import { ThemeProvider } from "./context/ThemeContext";
-import LoaderScreen from "../components/LoaderScreen";
+import LoaderScreen from "../components/loader-screen";
 
 export const metadata: Metadata = {
   title: "Andrés García - Frontend Developer",

@@ -71,6 +71,7 @@
     "@types/node": "^22.18.8",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "husky": "^8.0.0",
     "jest": "^30.2.0",
     "jest-environment-jsdom": "^30.2.0",
     "jsdom": "^27.0.0",
@@ -93,6 +94,7 @@
     "test": "vitest",
     "test:run": "vitest run",
     "test:watch": "vitest watch",
-    "test:clear": "vitest --clearCache"
+    "test:clear": "vitest --clearCache",
+    "prepare": "husky install"
   }
 }

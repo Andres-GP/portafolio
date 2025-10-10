@@ -7,7 +7,7 @@ vi.mock("@vercel/analytics/next", () => ({
   Analytics: () => <div data-testid="analytics" />,
 }));
 
-vi.mock("../components/LoaderScreen", () => ({
+vi.mock("../components/loader-screen.tsx", () => ({
   default: () => <div data-testid="loader">Loading...</div>,
 }));
 
