@@ -9,7 +9,7 @@ Portfolio/landing page built with **Next.js + TypeScript**, using **TailwindCSS*
 ## 🔗 Demo
 
 You can check out the deployed project on Vercel:  
-[https://portafolio-coral-eta.vercel.app/](https://portafolio-coral-eta.vercel.app/)
+[Demo](https://portafolio-coral-eta.vercel.app/)
 
 ---
 
@@ -24,7 +24,8 @@ You can check out the deployed project on Vercel:
 - **Email**: Resend (TypeScript-friendly)  
 - **Charts**: Recharts  
 - **State Management / Themes**: next-themes + custom hooks  
-- **Analytics**: Vercel Analytics  
+- **Analytics**: Vercel Analytics
+- Component and Unit testing: vitest
 
 ---
 
@@ -35,5 +36,6 @@ You can check out the deployed project on Vercel:
 - **Functional contact form** with email sending using Resend and validation with `zod`.  
 - **Modern and composable UI** using Radix UI + TailwindCSS.  
 - **Responsive and accessible**, optimized for mobile, tablet, and desktop.  
-- **Smooth animations and transitions** with TailwindCSS animate and `tw-animate-css`.  
+- **Smooth animations and transitions** with TailwindCSS animate and `tw-animate-css`.
+- Component and Unit testing with vitest.
 ---
