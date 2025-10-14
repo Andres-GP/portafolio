@@ -9,7 +9,7 @@ Portfolio/landing page built with **Next.js + TypeScript**, using **TailwindCSS*
 ## 🔗 Demo
 
 You can check out the deployed project on Vercel:  
-[https://portafolio-coral-eta.vercel.app/](https://portafolio-coral-eta.vercel.app/)
+[Demo](https://portafolio-coral-eta.vercel.app/)
 
 ---
 
@@ -23,11 +23,9 @@ You can check out the deployed project on Vercel:
 - **Form Handling**: react-hook-form + zod  
 - **Email**: Resend (TypeScript-friendly)  
 - **Charts**: Recharts  
-- **Drag & Drop**: @dnd-kit  
-- **Carousel**: Embla Carousel React  
-- **Date Picker**: react-day-picker  
 - **State Management / Themes**: next-themes + custom hooks  
-- **Analytics**: Vercel Analytics  
+- **Analytics**: Vercel Analytics
+- Component and Unit testing: vitest
 
 ---
 
@@ -38,8 +36,6 @@ You can check out the deployed project on Vercel:
 - **Functional contact form** with email sending using Resend and validation with `zod`.  
 - **Modern and composable UI** using Radix UI + TailwindCSS.  
 - **Responsive and accessible**, optimized for mobile, tablet, and desktop.  
-- **Dynamic charts and tables** with `Recharts` and `@tanstack/react-table`.  
-- **Drag & Drop and sortable lists** with `@dnd-kit`.  
-- **Project carousel** using Embla Carousel.  
-- **Smooth animations and transitions** with TailwindCSS animate and `tw-animate-css`.  
+- **Smooth animations and transitions** with TailwindCSS animate and `tw-animate-css`.
+- Component and Unit testing with vitest.
 ---
