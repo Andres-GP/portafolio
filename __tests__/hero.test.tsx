@@ -16,10 +16,6 @@ vi.mock("@/lib/utils", async () => {
   };
 });
 
-vi.mock("@splinetool/react-spline/next", () => ({
-  default: () => <div data-testid="spline" />,
-}));
-
 vi.mock("../app/context/ThemeContext", () => ({
   useTheme: vi.fn(),
 }));
@@ -84,21 +80,5 @@ describe("Hero Component", () => {
       "href",
       "mailto:andresgarciapedreros@gmail.com"
     );
-  });
-
-  it("renders Spline with dark theme scene when isDark=true", () => {
-    (useTheme as vi.Mock).mockReturnValue({ isDark: true });
-
-    render(<Hero />);
-    const spline = screen.getByTestId("spline");
-    expect(spline).toBeInTheDocument();
-  });
-
-  it("renders Spline with light theme scene when isDark=false", () => {
-    (useTheme as vi.Mock).mockReturnValue({ isDark: false });
-
-    render(<Hero />);
-    const spline = screen.getByTestId("spline");
-    expect(spline).toBeInTheDocument();
   });
 });

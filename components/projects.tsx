@@ -76,6 +76,28 @@ export function Projects() {
       demo: "https://weather-app-bay-seven-21.vercel.app/",
     },
     {
+      title: "Go Eat",
+      description:
+        "Go Eat is a modern and dynamic food web app where users can explore on dishes and restaurants.",
+      image: "/previews/go-eat.png",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Material UI (MUI)",
+        "Zod",
+        "GraphQL",
+        "React Hooks",
+        "Custom Hooks",
+        "HyGraph",
+        "Jest",
+        "React testing library",
+      ],
+      github: "https://github.com/Andres-GP/go-eat",
+      demo: "https://go-eat-it.vercel.app/",
+    },
+    {
       title: "User Management System",
       description:
         "A complete user management application featuring authentication, and secure CRUD operations. Built for scalability and clarity in enterprise contexts.",

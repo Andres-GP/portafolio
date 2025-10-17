@@ -1,23 +1,44 @@
 "use client";
 
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { scrollToSection } from "@/lib/utils";
-import Spline from "@splinetool/react-spline/next";
+import dynamic from "next/dynamic";
 import { useTheme } from "../app/context/ThemeContext";
 import Loader from "./ui/loader";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
+const Spline = dynamic(() => import("@splinetool/react-spline"), {
+  ssr: false,
+});
+
+function checkWebGLSupport() {
+  try {
+    const canvas = document.createElement("canvas");
+    return !!(
+      window.WebGLRenderingContext &&
+      (canvas.getContext("webgl") || canvas.getContext("experimental-webgl"))
+    );
+  } catch {
+    return false;
+  }
+}
+
 export function Hero() {
   const { isDark } = useTheme();
+  const [hasWebGL, setHasWebGL] = useState(true);
+
+  useEffect(() => {
+    setHasWebGL(checkWebGLSupport());
+  }, []);
 
   return (
     <section
       id="home"
       className="flex flex-col items-center justify-between gap-10 pt-25 lg:flex-row"
     >
-      <div className="lg:flex-1 space-y-6">
+      <div className={`${hasWebGL ? "lg:flex-1" : "lg:flex-4"} space-y-6`}>
         <div className="space-y-2">
           <div className="transform scale-160 h-[50px] w-fit ml-3 mb-2">
             <Avatar>
@@ -90,21 +111,23 @@ export function Hero() {
           </a>
         </div>
       </div>
-      <div className="flex-1 w-[800px] h-[700px] rounded-xl overflow-hidden scale-65 md:hidden lg:block">
-        <Suspense fallback={<Loader />}>
-          <Spline
-            scene={
-              isDark
-                ? "https://prod.spline.design/N4-ypHUkAhRzf0qf/scene.splinecode"
-                : "https://prod.spline.design/zBt7AYvjL9QXSq42/scene.splinecode"
-            }
-          />
-          <div
-            className={`w-[200px] h-[100px] absolute bottom-0 right-0 transition-colors duration-300 ${
-              isDark ? "bg-black" : "bg-white"
-            }`}
-          />
-        </Suspense>
+      <div className="flex-1 w-[800px] h-[700px] rounded-xl overflow-hidden scale-65 md:hidden lg:block relative">
+        {hasWebGL && (
+          <Suspense fallback={<Loader />}>
+            <Spline
+              scene={
+                isDark
+                  ? "https://prod.spline.design/N4-ypHUkAhRzf0qf/scene.splinecode"
+                  : "https://prod.spline.design/zBt7AYvjL9QXSq42/scene.splinecode"
+              }
+            />
+            <div
+              className={`w-[200px] h-[100px] absolute bottom-0 right-0 transition-colors duration-300 ${
+                isDark ? "bg-black" : "bg-white"
+              }`}
+            />
+          </Suspense>
+        )}
       </div>
     </section>
   );
