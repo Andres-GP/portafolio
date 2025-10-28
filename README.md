@@ -1,41 +1,44 @@
-# Portafolio
+# 💼 Portafolio
 
 [![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?logo=vercel)](https://vercel.com/)
 
-Portfolio/landing page built with **Next.js + TypeScript**, using **TailwindCSS**, **Spline** animations, email sending via **Resend**, and a modern architecture with hooks, context, and composable UI.
+A sleek **portfolio and landing page** built with **Next.js + TypeScript**, featuring **3D animations**, **email integration**, and a **modern UI** powered by **TailwindCSS** and **Radix UI**.  
+Designed for performance, interactivity, and accessibility.
 
 ---
 
-## 🔗 Demo
+## 🚀 Live Demo
 
-You can check out the deployed project on Vercel:  
-[Demo](https://portafolio-coral-eta.vercel.app/)
-
----
-
-## 🛠 Technologies Used
-
-- **Framework**: [Next.js 14](https://nextjs.org/)  
-- **Language**: TypeScript  
-- **Styling**: TailwindCSS, tailwind-merge, tailwind-animate  
-- **UI Components**: Radix UI, Geist, Lucide Icons  
-- **3D Animations**: [Spline React](https://www.spline.design/)  
-- **Form Handling**: react-hook-form + zod  
-- **Email**: Resend (TypeScript-friendly)  
-- **Charts**: Recharts  
-- **State Management / Themes**: next-themes + custom hooks  
-- **Analytics**: Vercel Analytics
-- Component and Unit testing: vitest
+👉 [View Live Portfolio](https://portafolio-coral-eta.vercel.app/)
 
 ---
 
-## ⚡ Features
+## ✨ Features
 
-- **Interactive 3D animations** with Spline integrated in the hero section.  
-- **Theme switcher** using `next-themes` with localStorage persistence.  
-- **Functional contact form** with email sending using Resend and validation with `zod`.  
-- **Modern and composable UI** using Radix UI + TailwindCSS.  
-- **Responsive and accessible**, optimized for mobile, tablet, and desktop.  
-- **Smooth animations and transitions** with TailwindCSS animate and `tw-animate-css`.
-- Component and Unit testing with vitest.
+- 🎨 **Interactive 3D animations** using Spline.
+- 🌙 **Theme switcher** with `next-themes` and persistence.
+- 📧 **Contact form** with validation (Zod + React Hook Form) and email sending via **Resend**.
+- 🧩 **Composable components** with Radix UI and TailwindCSS.
+- 📱 **Fully responsive**, optimized for all devices.
+- ✨ **Smooth animations and transitions** with Tailwind Animate.
+- 🧪 **Component & Unit Testing** with Vitest.
+
 ---
+
+## 🧰 Tech Stack
+
+| Category             | Technology                              |
+| -------------------- | ---------------------------------------- |
+| **Framework**        | Next.js 14                               |
+| **Language**         | TypeScript                               |
+| **Styling**          | TailwindCSS, tailwind-merge, animate     |
+| **UI Components**    | Radix UI, Geist, Lucide Icons            |
+| **3D Animations**    | Spline React                             |
+| **Forms & Email**    | React Hook Form + Zod + Resend           |
+| **Charts**           | Recharts                                 |
+| **Themes**           | next-themes                              |
+| **Analytics**        | Vercel Analytics                         |
+| **Testing**          | Vitest                                   |
+
+---
+
