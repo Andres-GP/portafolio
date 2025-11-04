@@ -5,11 +5,11 @@ let mockSend: any;
 
 vi.mock("resend", () => {
   return {
-    Resend: vi.fn().mockImplementation(() => ({
-      emails: {
+    Resend: class {
+      emails = {
         send: (...args: any[]) => mockSend(...args),
-      },
-    })),
+      };
+    },
   };
 });
 
