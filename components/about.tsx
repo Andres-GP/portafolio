@@ -44,14 +44,14 @@ export function About() {
         <div className="grid gap-12 lg:grid-cols-2">
           <div className="space-y-4">
             <p className="text-muted-foreground leading-relaxed">
-              Hello! I'm Andrés, a passionate developer who loves bringing ideas
-              to life through clean, elegant code and thoughtful design. My
-              journey into web development began many years ago when I decided
-              to experiment with creating my very first website — a small
-              project that quickly grew into a deep curiosity for how things
-              work on the web. Since then, I've been continuously learning,
-              exploring new technologies, and improving my craft one project at
-              a time.
+              Hello! I&apos;m Andrés, a passionate developer who loves bringing
+              ideas to life through clean, elegant code and thoughtful design.
+              My journey into web development began many years ago when I
+              decided to experiment with creating my very first website — a
+              small project that quickly grew into a deep curiosity for how
+              things work on the web. Since then, I&apos;ve been continuously
+              learning, exploring new technologies, and improving my craft one
+              project at a time.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">

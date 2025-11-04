@@ -63,6 +63,10 @@
     "zod": "3.25.67"
   },
   "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
     "@tailwindcss/postcss": "^4.1.9",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
@@ -71,8 +75,6 @@
     "@types/node": "^22.18.8",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "16.0.1",
     "husky": "^8.0.0",
     "jest": "^30.2.0",
     "jest-environment-jsdom": "^30.2.0",
@@ -92,7 +94,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --fix",
+    "lint": "next lint",
     "test": "vitest",
     "test:run": "vitest run",
     "test:watch": "vitest watch",
