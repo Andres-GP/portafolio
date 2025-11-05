@@ -7,9 +7,66 @@ import { ExternalLink, Github } from "lucide-react";
 export function Projects() {
   const projects = [
     {
+      title: "E-Commerce & Admin",
+      description:
+        "E-Commerce & Admin is a modern e-commerce platform built as a Turborepo monorepo with microfrontends and microservices, integrating two microfrontends (ecommerce and admin) and four independent microservices for a scalable, modular, and high-performance system. Built with Next.js, TypeScript, TailwindCSS, Radix UI, and Express + MongoDB on the backend, it combines a smooth user experience with professional, enterprise-level architecture with a full GitHub Actions workflow for continuous integration, testing, and deployment.",
+      image: "/previews/ecommerce-and-admin.png",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "React",
+        "Radix",
+        "Axios",
+        "Express",
+        "Node",
+        "MongoDB",
+        "Turborepo",
+        "Microfrontends",
+        "Microservices",
+        "Jest",
+        "React testing library",
+        "GraphQL",
+        "Tailwind",
+        "React Hooks",
+        "Custom Hooks",
+        "Vercel",
+        "Radix",
+        "UploadThing",
+      ],
+      github: "https://github.com/Andres-GP/e-commerce-and-admin",
+      demo: "https://e-commerce-and-admin-ecommerce.vercel.app/",
+      demo2: "https://e-commerce-admin-two-chi.vercel.app/",
+    },
+    {
+      title: "Socially",
+      description:
+        "Socially is a fullstack social media app where users can post content with images, comment on posts, follow others, and manage notifications. It features authentication with Prisma and Clerk, dark mode, and a modern, responsive interface. The app is fully deployed on Vercel with a full GitHub Actions workflow for continuous integration, testing, and deployment.",
+      image: "/previews/socially.png",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "React",
+        "PostgreSQL",
+        "Axios",
+        "Prisma",
+        "Clerk",
+        "Jest",
+        "React testing library",
+        "Sass",
+        "Tailwind",
+        "React Hooks",
+        "Custom Hooks",
+        "Vercel",
+        "Radix",
+        "UploadThing",
+      ],
+      github: "https://github.com/Andres-GP/Socially?tab=readme-ov-file",
+      demo: "https://socially-mu-ten.vercel.app/",
+    },
+    {
       title: "SocialApp",
       description:
-        "This is a fully-featured Next.js application built with TypeScript, deployed on Vercel. It supports internationalization (i18n), API integration with Axios, Tailwind CSS, Firebase Authentication, Redux for state management, and includes both unit tests and component tests.",
+        "This is a fully-featured Next.js application built with TypeScript, deployed on Vercel. It supports internationalization (i18n), API integration with Axios, Tailwind CSS, Firebase Authentication, Redux for state management, and includes both unit tests and component tests with a full GitHub Actions workflow for continuous integration, testing, and deployment.",
       image: "/previews/social-app.png",
       technologies: [
         "Next.js",
@@ -33,7 +90,7 @@ export function Projects() {
     {
       title: "Realestate",
       description:
-        "Real Estate page built with Next.js + TypeScript, using TailwindCSS, modern architecture with hooks, context, and composable UI.",
+        "Real Estate page built with Next.js + TypeScript, using TailwindCSS, modern architecture with hooks, context, and composable UI with a full GitHub Actions workflow for continuous integration, testing, and deployment.",
       image: "/previews/realestate.png",
       technologies: [
         "Next.js",
@@ -56,7 +113,7 @@ export function Projects() {
     {
       title: "Weather",
       description:
-        "Weather is a modern web application to check detailed weather information anywhere in the world. The app uses the OpenWeather API and provides an interactive interface to search and view weather data.",
+        "Weather is a modern web application to check detailed weather information anywhere in the world. The app uses the OpenWeather API and provides an interactive interface to search and view weather data with a full GitHub Actions workflow for continuous integration, testing, and deployment.",
       image: "/previews/weather.png",
       technologies: [
         "Next.js",
@@ -78,7 +135,7 @@ export function Projects() {
     {
       title: "Go Eat",
       description:
-        "Go Eat is a modern and dynamic food web app where users can explore on dishes and restaurants.",
+        "Go Eat is a modern and dynamic food web app where users can explore on dishes and restaurants with a full GitHub Actions workflow for continuous integration, testing, and deployment.",
       image: "/previews/go-eat.png",
       technologies: [
         "Next.js",
@@ -100,7 +157,7 @@ export function Projects() {
     {
       title: "User Management System",
       description:
-        "A complete user management application featuring authentication, and secure CRUD operations. Built for scalability and clarity in enterprise contexts.",
+        "A complete user management application featuring authentication, and secure CRUD operations. Built for scalability and clarity in enterprise contexts with a full GitHub Actions workflow for continuous integration, testing, and deployment.",
       image: "/previews/ums.png",
       technologies: [
         "Node.js",
@@ -119,7 +176,7 @@ export function Projects() {
     {
       title: "Blog",
       description:
-        "A dynamic and minimalist blog application with authentication, post creation, editing. Built with clean UI/UX and deployed on Render.",
+        "A dynamic and minimalist blog application with authentication, post creation, editing. Built with clean UI/UX and deployed on Render with a full GitHub Actions workflow for continuous integration, testing, and deployment.",
       image: "/previews/node-blog.png",
       technologies: [
         "Node.js",
@@ -191,9 +248,23 @@ export function Projects() {
                       rel="noopener noreferrer"
                     >
                       <ExternalLink className="mr-2 h-4 w-4" />
-                      Demo
+                      Demo{" "}
+                      {project.title == "E-Commerce & Admin" && "Ecommerce"}
                     </a>
                   </Button>
+                  {project.demo2 !== undefined && (
+                    <Button size="sm" asChild>
+                      <a
+                        href={project.demo2}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                        Demo{" "}
+                        {project.title == "E-Commerce & Admin" ? "Admin" : ""}
+                      </a>
+                    </Button>
+                  )}
                 </div>
               </div>
             </Card>
