@@ -9,9 +9,6 @@ jobs:
   deploy-prod:
     if: github.ref == 'refs/heads/master' && github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    environment:
-      name: production
-      url: https://portafolio-coral-eta.vercel.app/
 
     steps:
       - uses: actions/checkout@v4
@@ -29,7 +26,7 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
 
       - name: Deploy to Vercel
-        uses: vercel/actions/deploy@v1
+        uses: vercel/actions/deploy@f6a3efc0a4b3cf8072a844a5fb660a7c5c1d9d8a
         with:
           token: ${{ secrets.VERCEL_TOKEN }}
           project-id: ${{ secrets.VERCEL_PROJECT_ID }}
@@ -42,4 +39,5 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         with:
           args: "✅ Production deployed for ${{ github.repository }}!"
+
 
