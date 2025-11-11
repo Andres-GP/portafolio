@@ -111,7 +111,7 @@ export function Hero() {
           </a>
         </div>
       </div>
-      <div className="flex-1 w-[800px] h-[700px] rounded-xl overflow-hidden scale-65 md:hidden lg:block relative">
+      <div className="pointer-events-none flex-1 w-[800px] h-[700px] rounded-xl overflow-hidden scale-65 md:hidden lg:block relative">
         {hasWebGL && (
           <Suspense fallback={<Loader />}>
             <Spline
