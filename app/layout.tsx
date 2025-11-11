@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   title: "Andrés García - Frontend Developer",
   description:
     "I’m a Frontend Developer with +5 years of experience designing and coding mobile and web apps out of great ideas based in wisdom and intelligence, I’m willing to give amazing ideas and take them to live in little time, fast as thought. you can put all your confidence in my commitment, professionalism and knowledge, I’m always looking forward for collaborations and deals.",
-  generator: "v0.app",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
