@@ -26,7 +26,7 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
 
       - name: Deploy to Vercel
-        uses: vercel/actions/deploy@f6a3efc0a4b3cf8072a844a5fb660a7c5c1d9d8a
+        uses: amondnet/vercel-action@v25
         with:
           token: ${{ secrets.VERCEL_TOKEN }}
           project-id: ${{ secrets.VERCEL_PROJECT_ID }}
