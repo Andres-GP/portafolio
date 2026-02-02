@@ -6,12 +6,16 @@ on:
   push:
     branches: [master]
 
+# Evita múltiples ejecuciones colgadas en la misma rama
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   quality-checks:
     uses: ./.github/workflows/reusable-build.yml
     with:
       node-version: 22
-      runs-on: ubuntu-22.04
     secrets:
       RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
       EMAIL_TO: ${{ secrets.EMAIL_TO }}
@@ -28,11 +32,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: "npm"
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
 
       - name: Run unit & integration tests
         run: npm test -- --coverage
-
