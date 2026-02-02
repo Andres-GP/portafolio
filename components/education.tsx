@@ -6,7 +6,7 @@ export function Education() {
     {
       degree: "MicroMasters in Finance (MMS)",
       school: "Massachusetts Institute of Technology (MITx)",
-      period: "May 2025 – Dec 2026",
+      period: "2025 – Present",
       description: [
         "MITx-certified advanced international program combining rigorous financial theory with hands-on applications in investment, capital markets, and quantitative analysis.",
         "Covered asset valuation, risk management, algorithmic trading, corporate finance, and portfolio optimization techniques.",
@@ -19,17 +19,63 @@ export function Education() {
       ],
     },
     {
+      degree: "MicroMasters in Statistics and Data Science (MMS)",
+      school: "Massachusetts Institute of Technology (MITx)",
+      period: "2025 – Present",
+      description: [
+        "MITx-certified advanced international program focused on statistical reasoning, data analysis, and applied machine learning using real-world datasets.",
+        "Covered probability theory, statistical inference, linear models, optimization methods, and core machine learning algorithms.",
+        "Emphasized data-driven decision making through rigorous mathematical foundations and computational implementation in Python.",
+        "Engaged in hands-on projects involving data cleaning, exploratory data analysis, predictive modeling, and evaluation of statistical and machine learning models.",
+      ],
+      achievements: [
+        "Completed advanced coursework in probability, statistics, and applied machine learning",
+        "Developed end-to-end data analysis and modeling projects using Python",
+      ],
+    },
+    {
+      degree: "Bachelor’s Degree in Multimedia Engineering",
+      school: "Universidad Nacional Abierta y a Distancia - UNAD Colombia",
+      period: "2026 – Present",
+      description: [
+        "Undergraduate engineering program focused on the design, development, and integration of multimedia systems combining software engineering, digital content, and interactive technologies.",
+        "Covered fundamentals of programming, data structures, software engineering, databases, and web technologies, alongside multimedia systems, digital graphics, and user interaction.",
+        "Emphasized applied engineering practices through project-based learning in areas such as web applications, multimedia platforms, and interactive systems.",
+        "Developed technical and analytical skills for building scalable digital products, integrating frontend, backend, and multimedia components.",
+      ],
+      achievements: [],
+    },
+    {
       degree: "Certifications",
       school: "Professional Development",
       period: "2020 – 2023",
       description: [
-        "Certified in advanced Front-End and Back-End JavaScript Development, including React.js, Vue.js, Angular, and Node.js.",
-        "Completed specialized programs in UX/UI Design, Product Design, and Graphic Design, emphasizing usability and product strategy.",
-        "Certified in Business Executive and Leadership (Team Management), focused on cross-functional collaboration and agile methodologies.",
-        "Developed full-stack and mobile applications with React Native, Firebase, and modern web technologies.",
+        "IBM Data Engineering Professional Certificate – focused on building ETL pipelines, data processing workflows, and scalable data engineering architectures.",
+        "IBM Data Warehouse Engineer Professional Certificate – specialized in analytical data modeling, data warehousing concepts, and enterprise reporting systems.",
+        "Data Engineering, Big Data, and Machine Learning on GCP Specialization (Google) – covering large-scale data processing, cloud-based ML pipelines, and production data systems.",
+        "Machine Learning and Reinforcement Learning in Finance Specialization (New York University) – focused on quantitative modeling, reinforcement learning, and financial market applications.",
+        "Market Microstructure (Università degli Studi di Napoli Federico II) – in-depth study of price formation, liquidity, and trading mechanisms in financial markets.",
+        "Applied Data Science with Python Specialization (University of Michigan) – focused on data analysis, visualization, and predictive modeling using Python.",
+        "Business Executive – Learning Path (Platzi) – training in business strategy, finance fundamentals, and executive decision-making.",
+        "Leadership (Team Management) – Learning Path (Platzi) – focused on leadership skills, team coordination, and people management.",
+        "Graphic Designer – Learning Path (Platzi) – training in visual design principles, branding, and digital graphics.",
+        "UX/UI Design – Learning Path (Platzi) – focused on user-centered design, usability, and interface design.",
+        "Product Designer – Learning Path (Platzi) – focused on product thinking, design systems, and product strategy.",
+        "Firebase – Learning Path (Platzi) – focused on backend-as-a-service, authentication, and real-time databases.",
+        "JavaScript Development – Learning Path (Platzi) – covering core JavaScript concepts, ES6+, and modern development practices.",
+        "JavaScript Backend Development – Learning Path (Platzi) – focused on backend development with Node.js, APIs, and server-side architecture.",
+        "Angular Development – Learning Path (Platzi) – focused on building scalable front-end applications with Angular.",
+        "Android Apps Development – Learning Path (Platzi) – focused on native Android application development.",
+        "React Native Apps Development – Learning Path (Platzi) – focused on cross-platform mobile application development.",
+        "WordPress Development – Learning Path (Platzi) – focused on CMS-based web development and customization.",
+        "Cross-platform Apps Development – Learning Path (Platzi) – focused on building applications for multiple platforms from a single codebase.",
+        "Vue.js Development – Learning Path (Platzi) – focused on front-end development with Vue.js.",
+        "React.js Front-End Development – Learning Path (Platzi) – focused on building modern user interfaces with React.",
+        "Web Development – Learning Path (Platzi) – covering full web development fundamentals including HTML, CSS, and JavaScript.",
+        "English Proficiency (B2 Level) – certified by Centro Colombo Americano.",
       ],
+
       achievements: [
-        "Multiple verified certifications in development, design, and leadership.",
         "Recognized for continuous professional growth through technology-driven education.",
       ],
     },
@@ -41,7 +87,7 @@ export function Education() {
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             <span className="text-primary font-mono text-xl">03.</span>{" "}
-            Education
+            Education and Certifications
           </h2>
           <div className="h-px w-64 bg-border" />
         </div>
