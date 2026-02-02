@@ -11,20 +11,28 @@ jobs:
     uses: ./.github/workflows/reusable-build.yml
     with:
       node-version: 22
+      runs-on: ubuntu-22.04
     secrets:
       RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
       EMAIL_TO: ${{ secrets.EMAIL_TO }}
       EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
 
   unit-tests:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: quality-checks
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: "npm"
-      - run: npm ci
+
+      - name: Install dependencies
+        run: npm ci
+
       - name: Run unit & integration tests
         run: npm test -- --coverage
+
