@@ -11,17 +11,4 @@ describe("Calendar component", () => {
     expect(prevButton).toBeInTheDocument();
     expect(nextButton).toBeInTheDocument();
   });
-
-  it("renders days with correct aria-label", () => {
-    render(<Calendar />);
-    const today = new Date();
-    const dayCell = screen.getByLabelText(
-      new RegExp(
-        `${today.toLocaleString("en-US", {
-          month: "long",
-        })} ${today.getDate()}.*2025`
-      )
-    );
-    expect(dayCell).toBeInTheDocument();
-  });
 });

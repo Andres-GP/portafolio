@@ -87,7 +87,7 @@ export function Education() {
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             <span className="text-primary font-mono text-xl">03.</span>{" "}
-            Education and Certifications
+            Education & Certifications
           </h2>
           <div className="h-px w-64 bg-border" />
         </div>
