@@ -1,12 +1,11 @@
 "use client";
 
-import React, { Suspense, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { scrollToSection } from "@/lib/utils";
 import dynamic from "next/dynamic";
 import { useTheme } from "../app/context/ThemeContext";
-import Loader from "./ui/loader";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const Spline = dynamic(() => import("@splinetool/react-spline"), {
@@ -110,24 +109,6 @@ export function Hero() {
             <span className="sr-only">Email</span>
           </a>
         </div>
-      </div>
-      <div className="pointer-events-none flex-1 w-[800px] h-[700px] rounded-xl overflow-hidden scale-65 md:hidden lg:block relative">
-        {hasWebGL && (
-          <Suspense fallback={<Loader />}>
-            <Spline
-              scene={
-                isDark
-                  ? "https://prod.spline.design/N4-ypHUkAhRzf0qf/scene.splinecode"
-                  : "https://prod.spline.design/zBt7AYvjL9QXSq42/scene.splinecode"
-              }
-            />
-            <div
-              className={`w-[200px] h-[100px] absolute bottom-0 right-0 transition-colors duration-300 ${
-                isDark ? "bg-black" : "bg-white"
-              }`}
-            />
-          </Suspense>
-        )}
       </div>
     </section>
   );
