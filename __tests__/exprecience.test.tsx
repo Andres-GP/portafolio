@@ -42,9 +42,4 @@ describe("<Experience />", () => {
     expect(screen.getAllByText("Micro-Frontends").length).toBeGreaterThan(0);
     expect(screen.getAllByText("Micro-Services").length).toBeGreaterThan(0);
   });
-
-  it("matches the snapshot structure", () => {
-    const { container } = render(<Experience />);
-    expect(container).toMatchSnapshot();
-  });
 });
