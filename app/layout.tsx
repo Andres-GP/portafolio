@@ -8,9 +8,9 @@ import { ThemeProvider } from "./context/ThemeContext";
 import LoaderScreen from "../components/loader-screen";
 
 export const metadata: Metadata = {
-  title: "Andrés García - Frontend Developer",
+  title: "Andrés García - Fullstack Engineer",
   description:
-    "I’m a Frontend Developer with +5 years of experience designing and coding mobile and web apps out of great ideas based in wisdom and intelligence, I’m willing to give amazing ideas and take them to live in little time, fast as thought. you can put all your confidence in my commitment, professionalism and knowledge, I’m always looking forward for collaborations and deals.",
+    "I'm a Software Engineer with 6+ years of experience designing and building scalable web applications. Focused on clean architecture, cross‑functional collaboration, and mentoring engineering teams. Fluent across the full frontend stack (React, Next.js) with hands‑on backend and cloud experience (Node.js, AWS, OCI). Open to new collaborations and opportunities.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

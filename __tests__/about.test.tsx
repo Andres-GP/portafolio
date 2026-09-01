@@ -47,7 +47,6 @@ describe("About component", () => {
       "Nodejs",
       "Express.js",
       "AWS",
-      "Azure",
       "Git",
       "Gitlab",
       "Github",

@@ -23,7 +23,6 @@ export function About() {
     "Nodejs",
     "Express.js",
     "AWS",
-    "Azure",
     "Git",
     "Gitlab",
     "Github",

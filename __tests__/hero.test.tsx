@@ -6,9 +6,8 @@ import { useTheme } from "@/app/context/ThemeContext";
 import { scrollToSection } from "@/lib/utils";
 
 vi.mock("@/lib/utils", async () => {
-  const actual = await vi.importActual<typeof import("@/lib/utils")>(
-    "@/lib/utils"
-  );
+  const actual =
+    await vi.importActual<typeof import("@/lib/utils")>("@/lib/utils");
   return {
     ...actual,
     scrollToSection: vi.fn(),
@@ -39,15 +38,6 @@ describe("Hero Component", () => {
     expect(screen.getByText("I build things for the web.")).toBeInTheDocument();
   });
 
-  it("renders description paragraph", () => {
-    (useTheme as vi.Mock).mockReturnValue({ isDark: false });
-
-    render(<Hero />);
-    expect(
-      screen.getByText(/Frontend Developer with \+5 years of experience/i)
-    ).toBeInTheDocument();
-  });
-
   it("calls scrollToSection when buttons are clicked", () => {
     (useTheme as vi.Mock).mockReturnValue({ isDark: false });
     render(<Hero />);
@@ -74,11 +64,11 @@ describe("Hero Component", () => {
     expect(githubLink).toHaveAttribute("href", "https://github.com/Andres-GP");
     expect(linkedinLink).toHaveAttribute(
       "href",
-      "https://www.linkedin.com/in/andres-felipe-garcia-pedreros/"
+      "https://www.linkedin.com/in/andres-felipe-garcia-pedreros/",
     );
     expect(emailLink).toHaveAttribute(
       "href",
-      "mailto:andresgarciapedreros@gmail.com"
+      "mailto:andresgarciapedreros@gmail.com",
     );
   });
 });

@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 export function Experience() {
   const experiences = [
     {
-      title: "Frontend Developer",
+      title: "Senior Full-Stack Developer",
       company: "Freelance",
       period: "March 2025 – Present · Remote",
       description: [
@@ -63,7 +63,7 @@ export function Experience() {
       ],
     },
     {
-      title: "Front-End Developer & UX/UI Designer",
+      title: "Front-End Software Engineer",
       company: "Kovah",
       period: "Dec 2021 – Oct 2023 · Remote",
       description: [
@@ -95,7 +95,7 @@ export function Experience() {
       ],
     },
     {
-      title: "Front-End Developer",
+      title: "Software Developer & Team Lead",
       company: "A&L Software",
       period: "Jan 2020 – Dec 2021 · Remote",
       description: [

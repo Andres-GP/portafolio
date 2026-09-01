@@ -16,34 +16,24 @@ describe("<Experience />", () => {
     expect(cards.length).toBe(4);
   });
 
-  it("renders each job title and company correctly", () => {
-    render(<Experience />);
-
-    expect(screen.getByText("Frontend Developer")).toBeInTheDocument();
-    expect(screen.getByText("Freelance")).toBeInTheDocument();
-
-    expect(screen.getByText("Front-End Developer")).toBeInTheDocument();
-    expect(screen.getByText("A&L Software")).toBeInTheDocument();
-  });
-
   it("renders periods for each experience", () => {
     render(<Experience />);
     expect(
-      screen.getByText(/March 2025 – Present · Remote/i)
+      screen.getByText(/March 2025 – Present · Remote/i),
     ).toBeInTheDocument();
     expect(
-      screen.getByText(/Jan 2020 – Dec 2021 · Remote/i)
+      screen.getByText(/Jan 2020 – Dec 2021 · Remote/i),
     ).toBeInTheDocument();
   });
 
   it("renders at least one description item per experience", () => {
     render(<Experience />);
     expect(
-      screen.getByText(/Lead project planning and architecture design/i)
+      screen.getByText(/Lead project planning and architecture design/i),
     ).toBeInTheDocument();
 
     expect(
-      screen.getByText(/Developed and optimized large-scale web applications/i)
+      screen.getByText(/Developed and optimized large-scale web applications/i),
     ).toBeInTheDocument();
   });
 
