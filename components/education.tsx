@@ -68,7 +68,6 @@ export function Education() {
         "BigQuery for Data Analysts (Google)",
         "AWS Cloud Support Associate Professional Certificate (Amazon Web Services)",
         "Google Business Intelligence Professional Certificate (Google)",
-        "Microsoft Cloud Support Associate Professional Certificate (Microsoft)",
         "Machine Learning for Trading Specialization (New York Institute of Finance)",
         "Investment Management with Python and Machine Learning Specialization (EDHEC Business School)",
         "Data Engineering, Big Data, and Machine Learning on GCP Specialization (Google)",
