@@ -10,7 +10,7 @@ import LoaderScreen from "../components/loader-screen";
 export const metadata: Metadata = {
   title: "Andrés García - Fullstack Engineer",
   description:
-    "I'm a Software Engineer with 6+ years of experience designing and building scalable web applications. Focused on clean architecture, cross‑functional collaboration, and mentoring engineering teams. Fluent across the full frontend stack (React, Next.js) with hands‑on backend and cloud experience (Node.js, AWS, OCI). Open to new collaborations and opportunities.",
+    "I'm a Software Engineer with 5+ years of experience designing and building scalable web applications. Focused on clean architecture, cross‑functional collaboration, and mentoring engineering teams. Fluent across the full frontend stack (React, Next.js) with hands‑on backend and cloud experience (Node.js, AWS, OCI). Open to new collaborations and opportunities.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
