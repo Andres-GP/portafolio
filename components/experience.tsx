@@ -75,6 +75,7 @@ export function Experience() {
         "JavaScript",
         "Next.js",
         "Git",
+        "Docker",
       ],
     },
     {
@@ -110,6 +111,7 @@ export function Experience() {
         "Stripe",
         "Front-End Development",
         "Git",
+        "Docker",
       ],
     },
     {
