@@ -6,32 +6,39 @@ export function Experience() {
     {
       title: "Senior Full-Stack Developer",
       company: "Freelance",
-      period: "March 2025 – Present · Remote",
+      period: "JUne 2025 – Present · Remote",
       description: [
-        "Lead project planning and architecture design for client applications.",
-        "Develop and design high-quality web apps with React.js, Next.js, and modern technologies.",
-        "Implement scalable micro-frontends and micro-services to ensure flexibility and performance.",
-        "Collaborate with clients to deliver intuitive, responsive, and efficient web solutions.",
+        // Problem or challenge
+        "Clients needed scalable, high-performing web applications delivered independently, without the safety net of a large in-house team — requiring end-to-end ownership from architecture to deployment.",
+        // Solution
+        "I designed and built full-stack solutions using React.js, Next.js, and Node.js, deploying on AWS and Oracle Cloud Infrastructure (OCI), and integrating micro-frontend and micro-service architectures with automated CI/CD pipelines via GitHub Actions.",
+        // Outcome or impact
+        "Delivered reliable, production-ready applications with strong performance and maintainability, meeting client requirements independently across multiple projects.",
+        // Learning & personal growth
+        "Working as a freelancer sharpened my end-to-end ownership skills — from technical decision-making to client communication — and deepened my expertise across the full stack, including Python and FastAPI for backend services.",
       ],
       technologies: [
         "React.js",
         "Next.js",
         "AWS",
-        "Azure",
+        "Oracle Cloud Infrastructure (OCI)",
         "Node.js",
+        "JavaScript",
         "TypeScript",
         "Jest",
         "Express.js",
         "Material-UI",
         "Git",
         "GitHub",
-        "GitLab",
         "Figma",
         "HTML5",
         "CSS",
         "Sass",
         "Micro-Frontends",
         "Micro-Services",
+        "Python",
+        "FastAPI",
+        "GitHub Actions",
       ],
     },
     {
@@ -39,22 +46,26 @@ export function Experience() {
       company: "Globant",
       period: "Oct 2023 – March 2025 · Remote",
       description: [
-        "Led collaboration with clients through the full development lifecycle — from testing to optimization.",
-        "Coached and mentored developers, providing technical feedback and promoting best practices.",
-        "Participated in agile project planning and delivery processes to meet product goals.",
-        "Drove UI performance improvements and enhanced accessibility in production applications.",
+        // Problem or challenge
+        "As client engagements scaled, there was a need for someone to bridge technical execution with client relationships, while also growing junior team members and keeping project delivery on track.",
+        // Solution
+        "I led collaboration with clients throughout development, testing, and optimization; mentored and coached team members with regular feedback; guided technical exercises to identify improvement opportunities; and drove project planning processes. I also stepped in as Senior Frontend Developer on select client accounts using React.js, Next.js, AWS, and Azure.",
+        // Outcome or impact
+        "Strengthened client relationships through consistent, high-quality delivery, while helping team members grow technically — improving both project outcomes and team capability over time.",
+        // Learning & personal growth
+        "This role developed my leadership and mentoring skills, taught me how to balance technical delivery with stakeholder management, and gave me hands-on experience with project planning and cross-cloud architectures (AWS and Azure).",
       ],
       technologies: [
         "React.js",
         "Next.js",
         "TypeScript",
+        "JavaScript",
         "Node.js",
         "Jest",
         "Material-UI",
         "Azure",
         "AWS",
         "GitLab",
-        "Agile",
         "HTML5",
         "CSS",
         "Sass",
@@ -67,10 +78,14 @@ export function Experience() {
       company: "Kovah",
       period: "Dec 2021 – Oct 2023 · Remote",
       description: [
-        "Developed and optimized large-scale web applications using React with Redux, Sagas, and Tailwind.",
-        "Supervised UX/UI design processes to improve usability and visual consistency using Figma.",
-        "Coordinated with team members and project managers for continuous delivery and feature planning.",
-        "Led technical interviews to expand and strengthen the development team.",
+        // Problem or challenge
+        "The company's main product needed to keep growing in complexity and scale, while the team itself needed to expand and its design/UX processes needed continuous iteration.",
+        // Solution
+        "I developed, tested, and optimized the front-end of large-scale web applications using React with Sass, Redux, Axios, Sagas, Bootstrap, Tailwind, Material UI, Semantic UI, Yup, Formik, Emotion, Rollup.js, Framer, and Webpack. I coordinated closely with the team and Project Manager, led interview processes to grow the team, and supervised UX/UI design iterations in Figma.",
+        // Outcome or impact
+        "Contributed to a more robust and scalable core product, helped grow the engineering team through structured hiring, and improved the product's design consistency through ongoing UX/UI iteration.",
+        // Learning & personal growth
+        "This role gave me hands-on experience with state management at scale (Redux, Sagas), deepened my front-end tooling knowledge, and introduced me to technical hiring and cross-functional design collaboration.",
       ],
       technologies: [
         "React.js",
@@ -97,12 +112,16 @@ export function Experience() {
     {
       title: "Software Developer & Team Lead",
       company: "A&L Software",
-      period: "Jan 2020 – Dec 2021 · Remote",
+      period: "Jan 2021 – Dec 2021 · Remote",
       description: [
-        "Developed, tested, and optimized React-based applications using modern front-end frameworks.",
-        "Collaborated with project managers, stakeholders, and clients to deliver high-quality solutions.",
-        "Implemented responsive UIs and ensured cross-browser compatibility using modern web standards.",
-        "Worked with Next.js, Tailwind, and Ant Design to enhance performance and maintainability.",
+        // Problem or challenge
+        "Projects required close coordination across team members, Project Managers, stakeholders, and clients to deliver solutions that met evolving business needs.",
+        // Solution
+        "I developed, tested, and optimized solutions using React (with Axios, Jest, Ant UI, Semantic UI, Bootstrap, Formik, Tailwind, Webpack, Next.js) and Node.js with Express, while coordinating directly with all stakeholders to align technical execution with business goals.",
+        // Outcome or impact
+        "Delivered consistent, well-tested solutions that met stakeholder expectations, strengthening trust with clients and improving cross-team communication.",
+        // Learning & personal growth
+        "This role built my foundation in full-stack development and taught me how to communicate effectively across technical and non-technical stakeholders — a skill that shaped how I lead client relationships today.",
       ],
       technologies: [
         "React.js",

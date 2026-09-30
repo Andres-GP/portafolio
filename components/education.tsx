@@ -6,7 +6,7 @@ export function Education() {
     {
       degree: "MicroMasters in Finance (MMS)",
       school: "Massachusetts Institute of Technology (MITx)",
-      period: "2025 – Present",
+      period: "Present",
       description: [
         "MITx-certified advanced international program combining rigorous financial theory with hands-on applications in investment, capital markets, and quantitative analysis.",
         "Covered asset valuation, risk management, algorithmic trading, corporate finance, and portfolio optimization techniques.",
@@ -21,7 +21,7 @@ export function Education() {
     {
       degree: "MicroMasters in Statistics and Data Science (MMS)",
       school: "Massachusetts Institute of Technology (MITx)",
-      period: "2025 – Present",
+      period: "Present",
       description: [
         "MITx-certified advanced international program focused on statistical reasoning, data analysis, and applied machine learning using real-world datasets.",
         "Covered probability theory, statistical inference, linear models, optimization methods, and core machine learning algorithms.",
@@ -36,7 +36,7 @@ export function Education() {
     {
       degree: "Bachelor’s Degree in Multimedia Engineering",
       school: "Universidad Nacional Abierta y a Distancia - UNAD Colombia",
-      period: "2026 – Present",
+      period: "Present",
       description: [
         "Undergraduate engineering program focused on the design, development, and integration of multimedia systems combining software engineering, digital content, and interactive technologies.",
         "Covered fundamentals of programming, data structures, software engineering, databases, and web technologies, alongside multimedia systems, digital graphics, and user interaction.",
@@ -49,7 +49,7 @@ export function Education() {
       degree:
         "Double Bachellor's Degree in Computer Engineering and Business Administration, Computer Engineering / Business Administration (ADE)",
       school: "Universitat Oberta de Catalunya - UOC",
-      period: "2026 – Present",
+      period: "Present",
       description: [
         "Double Bachellor's Degree undergraduate program integrating computer engineering and business administration into a single 360-ECTS curriculum, combining technical systems",
         "development with strategic business management. The program covers core foundations in programming, algorithms, databases, software engineering, computer networks, and",
@@ -62,22 +62,23 @@ export function Education() {
     {
       degree: "Certifications",
       school: "Professional Development",
-      period: "2020 – 2023",
+      period: "Present",
       description: [
-        "Oracle Cloud Infrastructure AI Foundations Associate (1Z0-1122-26)",
-        "BigQuery for Data Analysts (Google)",
+        "Agentic AI Foundations Associate (1Z0-1157-26) (Oracle)",
+        "Oracle Cloud Infrastructure Architect Associate (1Z0-1072-26) (Oracle)",
+        "Model Context Protocol: Advanced Topics (Anthropic)",
+        "Building with the Claude API (Anthropic)",
+        "Claude Code in Action (Anthropic)",
+        "Oracle Cloud Infrastructure AI Foundations Associate (1Z0-1122-26) (Oracle)",
         "AWS Cloud Support Associate Professional Certificate (Amazon Web Services)",
-        "Google Business Intelligence Professional Certificate (Google)",
         "Machine Learning for Trading Specialization (New York Institute of Finance)",
         "Investment Management with Python and Machine Learning Specialization (EDHEC Business School)",
-        "Data Engineering, Big Data, and Machine Learning on GCP Specialization (Google)",
         "Machine Learning and Reinforcement Learning in Finance Specialization (New York University)",
         "Market Microstructure (Università degli Studi di Napoli Federico II)",
         "B2 level of English (Centro Colombo Americano)",
         "Applied Data Science with Python Specialization (University of Michigan)",
         "Business Executive – Learning Path (19 certified courses) (Platzi)",
         "Leadership (Team Management) – Learning Path (19 certified courses) (Platzi)",
-        "Graphic Designer – Learning Path (31 certified courses) (Platzi)",
         "UX UI Design - Learning Path (20 certified courses) (Platzi)",
       ],
 
