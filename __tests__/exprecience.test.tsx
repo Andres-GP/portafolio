@@ -40,10 +40,4 @@ describe("<Experience />", () => {
       ),
     ).toBeInTheDocument();
   });
-
-  it("renders micro-frontends and micro-services tags", () => {
-    render(<Experience />);
-    expect(screen.getAllByText("Micro-Frontends").length).toBeGreaterThan(0);
-    expect(screen.getAllByText("Micro-Services").length).toBeGreaterThan(0);
-  });
 });

@@ -64,6 +64,8 @@ export function Education() {
       school: "Professional Development",
       period: "Present",
       description: [
+        "AWS Application Networking Demonstrated (Amazon Web Services)",
+        "AWS Serverless Demonstrated (Amazon Web Services)",
         "Agentic AI Foundations Associate (1Z0-1157-26) (Oracle)",
         "Oracle Cloud Infrastructure Architect Associate (1Z0-1072-26) (Oracle)",
         "Model Context Protocol: Advanced Topics (Anthropic)",

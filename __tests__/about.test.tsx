@@ -52,8 +52,6 @@ describe("About component", () => {
       "Material UI",
       "Tailwind CSS",
       "Sass",
-      "Ant Design",
-      "Element UI",
       "Semantic UI",
       "Bootstrap",
       "Figma",

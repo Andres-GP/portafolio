@@ -28,8 +28,6 @@ export function About() {
     "Material UI",
     "Tailwind CSS",
     "Sass",
-    "Ant Design",
-    "Element UI",
     "Semantic UI",
     "Bootstrap",
     "Figma",

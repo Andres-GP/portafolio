@@ -16,7 +16,6 @@ export function Projects() {
         "Typescript",
         "React",
         "Radix",
-        "Axios",
         "Express",
         "Node",
         "MongoDB",
@@ -47,7 +46,6 @@ export function Projects() {
         "Typescript",
         "React",
         "PostgreSQL",
-        "Axios",
         "Prisma",
         "Clerk",
         "Jest",
@@ -66,14 +64,12 @@ export function Projects() {
     {
       title: "SocialApp",
       description:
-        "This is a fully-featured Next.js application built with TypeScript, deployed on Vercel. It supports internationalization (i18n), API integration with Axios, Tailwind CSS, Firebase Authentication, Redux for state management, and includes both unit tests and component tests with a full GitHub Actions workflow for continuous integration, testing, and deployment.",
+        "This is a fully-featured Next.js application built with TypeScript, deployed on Vercel. It supports internationalization (i18n), API integration with Tailwind CSS, Firebase Authentication, Redux for state management, and includes both unit tests and component tests with a full GitHub Actions workflow for continuous integration, testing, and deployment.",
       image: "/previews/social-app.png",
       technologies: [
         "Next.js",
         "Typescript",
         "React",
-        "Firebase",
-        "Axios",
         "I18n",
         "Redux",
         "Jest",
