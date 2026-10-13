@@ -86,7 +86,7 @@ export function Experience() {
         // Problem or challenge
         "The company's main product needed to keep growing in complexity and scale, while the team itself needed to expand and its design/UX processes needed continuous iteration.",
         // Solution
-        "I developed, tested, and optimized the front-end of large-scale web applications using React with Sass, Redux, Sagas, Bootstrap, Tailwind, Material UI, Semantic UI, Yup, Formik, Emotion, Rollup.js, Framer, and Webpack. I coordinated closely with the team and Project Manager, led interview processes to grow the team, and supervised UX/UI design iterations in Figma.",
+        "I developed, tested, and optimized the front-end of large-scale web applications using React with Sass, Redux, Sagas, Bootstrap, Tailwind, Material UI, Yup, Formik, Emotion, Rollup.js, Framer, and Webpack. I coordinated closely with the team and Project Manager, led interview processes to grow the team, and supervised UX/UI design iterations in Figma.",
         // Outcome or impact
         "Contributed to a more robust and scalable core product, helped grow the engineering team through structured hiring, and improved the product's design consistency through ongoing UX/UI iteration.",
         // Learning & personal growth
@@ -98,7 +98,7 @@ export function Experience() {
         "Amazon Web Services (AWS)",
         "Material-UI",
         "TypeScript",
-        "Semantic UI",
+
         "Sass",
         "English",
         "CSS",
@@ -106,7 +106,7 @@ export function Experience() {
         "Webpack",
         "Figma",
         "GitHub",
-        "Redux.js",
+        "Redux",
         "JavaScript",
         "Stripe",
         "Front-End Development",
@@ -122,7 +122,7 @@ export function Experience() {
         // Problem or challenge
         "Projects required close coordination across team members, Project Managers, stakeholders, and clients to deliver solutions that met evolving business needs.",
         // Solution
-        "I developed, tested, and optimized solutions using React (with Jest, Ant UI, Semantic UI, Bootstrap, Formik, Tailwind, Webpack, Next.js) and Node.js with Express, while coordinating directly with all stakeholders to align technical execution with business goals.",
+        "I developed, tested, and optimized solutions using React (with Jest, Ant UI, Bootstrap, Formik, Tailwind, Webpack, Next.js) and Node.js with Express, while coordinating directly with all stakeholders to align technical execution with business goals.",
         // Outcome or impact
         "Delivered consistent, well-tested solutions that met stakeholder expectations, strengthening trust with clients and improving cross-team communication.",
         // Learning & personal growth
@@ -136,7 +136,6 @@ export function Experience() {
         "Tailwind",
         "Bootstrap",
         "Jest",
-        "Semantic UI",
         "Sass",
         "Node.js",
         "Express.js",
