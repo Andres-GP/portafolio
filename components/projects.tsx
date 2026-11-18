@@ -5,6 +5,18 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 
 export function Projects() {
+  const profProjects = [
+    {
+      title: "Founder | Quant Researcher & Developer",
+      company: "Alphaca Capital",
+      period: "July 2025 - Present · Remote",
+      description: [
+        "Founder of Alphaca Capital, a quantitative research and systematic trading firm. I lead the full cycle, from research and strategy design to the infrastructure that runs it.",
+        "Research and validate statistical edges through hypothesis-driven analysis, rigorous validation, optimization and robustness checking, also the strategy development and deployment.",
+        "Design and build the proprietary stack end to end: data pipelines, research environment, backend services, monitoring dashboards and execution tooling.",
+      ],
+    },
+  ];
   const projects = [
     {
       title: "E-Commerce & Admin",
@@ -192,7 +204,48 @@ export function Projects() {
       <div className="space-y-12">
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            <span className="text-primary font-mono text-xl">03.</span> Projects
+            <span className="text-primary font-mono text-xl">03.</span>{" "}
+            Professional Projects
+          </h2>
+          <div className="h-px w-64 bg-border" />
+        </div>
+        <div className="space-y-6">
+          {profProjects.map((project, index) => (
+            <Card
+              key={index}
+              className="p-6 hover:border-primary/50 transition-colors"
+            >
+              <div className="space-y-4">
+                <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+                  <div>
+                    <h3 className="text-xl font-semibold text-foreground">
+                      {project.title}
+                    </h3>
+                    <p className="text-primary">{project.company}</p>
+                  </div>
+                  <p className="text-sm text-muted-foreground font-mono">
+                    {project.period}
+                  </p>
+                </div>
+                <ul className="space-y-2">
+                  {project.description.map((item, i) => (
+                    <li
+                      key={i}
+                      className="flex gap-2 text-sm text-muted-foreground leading-relaxed"
+                    >
+                      <span className="text-primary mt-1">▹</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Card>
+          ))}
+        </div>
+        <div className="space-y-2">
+          <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+            <span className="text-primary font-mono text-xl">03.</span>{" "}
+            Portfolio Projects
           </h2>
           <div className="h-px w-64 bg-border" />
         </div>
